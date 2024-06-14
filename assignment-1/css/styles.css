@@ -1,0 +1,11 @@
+/* universal */
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
