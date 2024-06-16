@@ -1,4 +1,3 @@
-/* universal */
 body {
   font-family: "Inter", sans-serif;
   color: #000000;
@@ -10,26 +9,20 @@ a {
 li {
   list-style-type: none;
 }
-nav {
-  max-width: 80rem;
-}
-nav ul {
-  display: flex;
-}
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   letter-spacing: 0.1rem;
   padding: 0.5rem 1rem;
   font-weight: 400;
   line-height: 1.5;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 h4 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 p {
@@ -67,86 +60,87 @@ p {
   font-size: 2rem;
 }
 
-/* small view */
-@media (max-width: 600px) {
-  header nav {
-    display: flex;
-    flex-direction: column;
-  }
-  nav img {
-    margin: 2rem auto;
-  }
-  nav ul {
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 2rem;
-    padding: 0;
-    align-items: center;
-  }
-  nav ul li {
-    margin-bottom: 1rem;
-  }
+header nav {
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2rem;
+  padding: 0;
+  align-items: center;
+}
+header nav img {
+  margin: 2rem auto;
+}
+nav ul li {
+  margin-bottom: 1rem;
+}
 
-  .gray-section p a {
-    margin-bottom: 1rem;
-  }
-  .gray-section img {
-    margin: 0 auto;
-    padding: 0.1rem 2rem;
-  }
-  .home-middle {
-    margin-top: 2rem;
-  }
-  /* todo, the last star  */
-  section:last-of-type .star {
-    margin-top: 2rem;
-  }
-  .motto {
-    padding: 3rem 1.5rem 1.5rem 1.5rem;
-    text-align: center;
-  }
-  .motto p:first-of-type {
-    margin-top: 2.5rem;
-  }
-  .motto p:last-of-type {
-    color: #a4a4a4;
-  }
-  .gray-section:last-of-type {
-    padding: 1.5rem;
-  }
-  .subscription {
-    background-color: #ffffff;
-    padding: 3rem 1.25rem;
-    text-align: center;
-  }
-  footer .black-section {
-    width: 100vw;
-    padding: 3rem 5rem;
-  }
-  footer img {
-    width: 90%;
-    margin: 0 auto;
-  }
-  footer p {
-    margin: 1rem auto;
-    text-align: left;
-    padding: 0 0 1rem 1.5rem;
-  }
-  footer nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.7rem;
-    justify-content: left;
-    flex-direction: column;
-    width: calc(100% / 3 - 2rem);
-    align-items: flex-start;
-  }
-  .footer-links li {
-    text-align: left;
-  }
+.gray-section p a {
+  margin-bottom: 1rem;
+}
+.gray-section img {
+  margin: 0 auto;
+  padding: 0.1rem 2rem;
+}
+.home-middle {
+  margin: 2rem 0;
+}
+
+section:last-of-type .star {
+  margin-top: 2rem;
+}
+.motto {
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+}
+.motto p:first-of-type {
+  margin-top: 2.5rem;
+}
+.motto p:last-of-type {
+  color: #a4a4a4;
+}
+.gray-section:last-of-type {
+  padding: 1.5rem;
+}
+.subscription {
+  background-color: #ffffff;
+  padding: 3rem 1.25rem;
+  text-align: center;
+}
+footer .black-section {
+  /* width: 100vw; */
+  padding: 2rem 4rem;
+}
+footer img {
+  width: 80%;
+  margin: 0 auto;
+}
+footer p {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: left;
+  padding: 0;
+}
+footer nav {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: column;
+  width: calc(100% / 3);
+  align-items: flex-start;
+  font-size: 0.7rem;
+}
+.footer-links li {
+  text-align: left;
 }
