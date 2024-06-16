@@ -26,13 +26,15 @@ h2 {
 h3 {
   font-size: 1.25rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 h4 {
   font-size: 1.15rem;
+  margin-bottom: 1rem;
 }
 p {
   font-size: 0.9rem;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   padding: 0 1rem;
 }
 .black-section {
@@ -44,11 +46,12 @@ p {
 }
 .gray-section {
   background-color: #ededed;
+  padding: 2rem 0;
 }
 .btn {
   background-color: #000000;
   color: #ededed;
-  padding: 1rem 1rem;
+  padding: 0.75rem 0.5rem;
   border: none;
   border-radius: 0.3rem;
   cursor: pointer;
@@ -66,7 +69,7 @@ p {
 
 /* small view */
 @media (max-width: 600px) {
-  nav {
+  header nav {
     display: flex;
     flex-direction: column;
   }
@@ -89,9 +92,59 @@ p {
   }
   .gray-section img {
     margin: 0 auto;
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 0.1rem 2rem;
   }
   .home-middle {
     margin-top: 2rem;
   }
+  /* todo, the last star  */
+  section:last-of-type .star {
+    margin-top: 2rem;
+  }
+  .motto {
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+  .motto p:first-of-type {
+    margin-top: 2.5rem;
+  }
+  .motto p:last-of-type {
+    color: #a4a4a4;
+  }
+  .gray-section:last-of-type {
+    padding: 1.5rem;
+  }
+  .subscription {
+    background-color: #ffffff;
+    padding: 3rem 1.25rem;
+    text-align: center;
+  }
+  footer .black-section{
+    width: 100vw;
+    padding: 3rem 5rem;
+  }
+  footer img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer p {
+    margin: 1rem auto;
+    text-align:left;
+    padding: 0 0 1rem 1.5rem;
+  }
+  footer nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  justify-content:left;
+}
+.footer-links li {
+  text-align: left;
+}
+
 }
