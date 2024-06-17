@@ -382,5 +382,13 @@ footer nav {
 
 /* gallery large */
 @media screen and (min-width: 1080px) {
-  
+  .gallery .flex-container {
+    flex-flow: row wrap;
+  }
+  .grow {
+    flex: 1 1 50%;
+  }
+  .shrink {
+    flex: 0 1 50%;
+  }
 }
