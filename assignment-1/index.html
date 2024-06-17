@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etudes | Architectural Profession</title>
     <!-- Google font: inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +12,8 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Etudes | Architectural Profession</title>
 </head>
+
 <body>
     <header class="black-section">
         <nav>
@@ -25,10 +26,13 @@
         </nav>
     </header>
     <main>
-        <div class="gray-section">
-            <h2>A commitment to innovation and sustainability</h2>
-            <p>Etudes is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural
-                excellence.</p>
+        <div class="gray-section max-contrain">
+            <div>
+                <h2>A commitment to innovation and sustainability</h2>
+                <p>Etudes is a pioneering firm that seamlessly merges creativity and functionality to redefine
+                    architectural
+                    excellence.</p>
+            </div>
             <p><a href="#" class="btn">About Us</a></p>
             <img srcset="img/building-exterior-s.webp 326w, img/building-exterior-m.webp 704w, img/building-exterior-l.webp 960w"
                 sizes="(max-width: 767px) 326px, (max-width: 1080px) 704px, 960px" src="img/tourist-and-building-l.webp"
@@ -37,7 +41,7 @@
                 src="img/building-exterior-l.webp" alt="A modern building in sunny day"> -->
         </div>
 
-        <section class="home-middle">
+        <section class="home-middle max-contrain">
             <div class="middle-wrapper">
                 <p class="star no-bold">&#9913;</p>
                 <h3>A passion for creating spaces</h3>
@@ -84,10 +88,10 @@
             </div>
         </section>
 
-        <section class="home-bottom gray-section">
+        <section class="home-bottom gray-section max-contrain">
             <p class="star">&#9913;</p>
             <h3>An array of resources</h3>
-            <p class="padding-ajustment">Our comprehensive suite of professional
+            <p class="padding-adjustment">Our comprehensive suite of professional
                 services caters to a diverse clientele, ranging
                 from homeowners to commercial developers.</p>
             <div class="bottom-wrapper">
@@ -100,13 +104,10 @@
                         </p>
                     </div>
                     <img srcset="img/tourist-and-building-s.webp 326w, img/tourist-and-building-m.webp 352w, img/tourist-and-building-l.webp 464w"
-                        sizes="(max-width: 767px) 326px, (max-width: 1080px) 352w, 464px"
+                        sizes="(max-width: 767px) 326px, (max-width: 1080px) 352px, 464px"
                         src="img/tourist-and-building-l.webp" alt="A tourist takes picture of a building">
                 </section>
-                <section class="flex-container-col">
-                    <img srcset="img/windows-s.webp 326w, img/windows-m.webp 352w, img/windows-l.webp 464w"
-                        sizes="(max-width: 767px) 326px, (max-width: 1080px) 352w, 464px" src="img/Many gray windows"
-                        alt="Many gray windows">
+                <section class="flex-container-col ">
                     <div>
                         <p class="star">&#9913;</p>
                         <h4>Newsletter</h4>
@@ -114,18 +115,21 @@
                             Case studies that celebrate architecture.
                             Exclusive access to design insights.</p>
                     </div>
+                    <img srcset="img/windows-s.webp 326w, img/windows-m.webp 352w, img/windows-l.webp 464w"
+                        sizes="(max-width: 767px) 326px, (max-width: 1080px) 352px, 464px" src="img/windows-l.webp"
+                        alt="Many gray windows" class="flex-order">
                 </section>
             </div>
 
         </section>
 
-        <section class="motto black-section">
+        <section class="motto black-section max-contrain">
             <h3>You saved us thousands of hours of work and unlocked insights we never thought possible</h3>
             <p>Annie Setter</p>
             <p>CEO, Greyprint</p>
         </section>
 
-        <section class="gray-section">
+        <section class="gray-section max-contrain">
             <div class="subscription">
                 <h3>Join 900+ subscribers</h3>
                 <p>Stay in the loop with everything you need to know.</p>
@@ -135,11 +139,11 @@
 
         <footer>
             <div class="black-section">
-                <div>
+                <div class="max-contrain">
                     <img src="img/logo-no-background-2-768x238.svg" alt="Etudes Logo">
                     <p>Merging creativity and functionality to redefine architectural excellence</p>
                 </div>
-                <nav>
+                <nav class="max-contrain">
                     <ul class="footer-links">
                         <li class="bold">About</li>
                         <li><a href="#">Team</a></li>
@@ -163,5 +167,4 @@
         </footer>
     </main>
 </body>
-
 </html>

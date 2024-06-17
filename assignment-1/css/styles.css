@@ -44,12 +44,13 @@ p {
 .btn {
   background-color: #000000;
   color: #ededed;
-  padding: 0.75rem 0.5rem;
+  padding: 0 0.75rem;
+  display: inline-flex;
+  height: 56px;
+  align-items: center;
   border: none;
   border-radius: 0.3rem;
-  cursor: pointer;
   font-size: 0.9rem;
-  display: inline-block;
   margin: 0.5rem auto;
 }
 .bold {
@@ -97,10 +98,15 @@ nav ul li {
 .home-middle {
   margin: 2rem 0;
 }
-/* position ajustment for the last star, unset the value in other view */
+/* position adjustment for the last star, unset the value in other view */
 section:last-of-type .star {
   margin-top: 2rem;
 }
+.flex-container-col {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .motto {
   padding: 3rem 1.5rem 1.5rem 1.5rem;
   text-align: center;
@@ -150,6 +156,9 @@ footer nav {
 .footer-links li {
   text-align: left;
 }
+.max-contrain {
+  max-width: 80rem;
+}
 
 /* medium view */
 @media screen and (min-width: 768px) {
@@ -161,6 +170,12 @@ footer nav {
   h2 {
     margin-bottom: 1rem;
   }
+  .gray-section:first-of-type div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .home-middle {
     padding: 0 2rem;
   }
@@ -183,7 +198,7 @@ footer nav {
   section:last-of-type .star {
     margin-top: 0.5rem;
   }
-  .padding-ajustment {
+  .padding-adjustment {
     padding: 1rem 3rem;
   }
   .flex-container-col {
@@ -202,6 +217,10 @@ footer nav {
   .flex-container-col img {
     margin: 0;
     width: calc(100% / 2);
+  }
+  .flex-container-col > .flex-order {
+    order: -2;
+    color: red;
   }
   .home-bottom .star {
     padding-left: 0;
