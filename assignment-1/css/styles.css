@@ -97,7 +97,7 @@ nav ul li {
 .home-middle {
   margin: 2rem 0;
 }
-
+/* position ajustment for the last star, unset the value in other view */
 section:last-of-type .star {
   margin-top: 2rem;
 }
@@ -120,7 +120,6 @@ section:last-of-type .star {
   text-align: center;
 }
 footer .black-section {
-  /* width: 100vw; */
   padding: 2rem 4rem;
 }
 footer img {
@@ -220,5 +219,55 @@ footer nav {
   }
   footer .black-section nav {
     width: calc(100% / 2);
+  }
+}
+
+/* large view */
+@media screen and (min-width: 1080px) {
+  .gray-section img {
+    width: 100%;
+  }
+  .middle-wrapper {
+    max-width: 67rem;
+    margin: 0 auto;
+  }
+  .flex-container section {
+    width: calc(100% / 3);
+  }
+  .flex-container-col div {
+    width: unset;
+    padding: unset;
+  }
+  .flex-container-col img {
+    margin: unset;
+    width: unset;
+    padding: 0;
+    width: 100%;
+  }
+
+  .bottom-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    /* column-gap: 2rem; */
+    padding: 0 3rem;
+  }
+  .bottom-wrapper section {
+    width: calc(100% / 2 - 2rem);
+  }
+  .flex-container-col div {
+    order: -1;
+  }
+  .flex-container-col div p:last-of-type {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .motto h3 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .subscription {
+    width: 50%;
+    margin: 0 auto;
   }
 }
