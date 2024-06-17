@@ -52,12 +52,19 @@ p {
   display: inline-block;
   margin: 0.5rem auto;
 }
+.bold {
+  font-weight: 700;
+  font-size: 1rem;
+}
 .star:not(.no-bold) {
   font-size: 2rem;
   font-weight: 700;
 }
 .no-bold {
   font-size: 2rem;
+}
+footer {
+  background-color: #000000;
 }
 
 header nav {
@@ -143,4 +150,75 @@ footer nav {
 }
 .footer-links li {
   text-align: left;
+}
+
+/* medium view */
+@media screen and (min-width: 768px) {
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .home-middle {
+    padding: 0 2rem;
+  }
+  .home-middle p:last-of-type {
+    margin: 2rem auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .flex-container section {
+    width: calc(100% / 2);
+    text-align: left;
+  }
+  .flex-container p {
+    padding: 0;
+  }
+  section:last-of-type .star {
+    margin-top: 0.5rem;
+  }
+  .padding-ajustment {
+    padding: 1rem 3rem;
+  }
+  .flex-container-col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  .flex-container-col div {
+    width: calc(100% / 2);
+    text-align: left;
+    padding: 0 1rem;
+  }
+  .flex-container-col img {
+    margin: 0;
+    width: calc(100% / 2);
+  }
+  .home-bottom .star {
+    padding-left: 0;
+  }
+  footer .black-section {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 6rem;
+    padding: 2rem;
+  }
+
+  footer .black-section div {
+    width: calc(100% / 2 - 6rem);
+    align-items: flex-start;
+  }
+  footer .black-section nav {
+    width: calc(100% / 2);
+  }
 }
