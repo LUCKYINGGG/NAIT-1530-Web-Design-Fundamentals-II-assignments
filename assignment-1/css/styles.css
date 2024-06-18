@@ -88,7 +88,7 @@ header nav img {
   display: block;
   padding: 2rem 3rem 0 3rem;
 }
-nav ul li {
+footer nav ul li {
   margin-bottom: 1rem;
 }
 
@@ -369,6 +369,13 @@ footer nav {
   .gallery .flex-container figure,
   .gallery .flex-container p {
     width: calc(100% / 2);
+  }
+  .gallery .p-adjustment {
+    margin: 1rem auto;
+  }
+  .gallery-mid-text {
+    padding: 1rem 6rem;
+    margin: 0 auto;
   }
   .gallery .black-section {
     padding-bottom: 2rem;
