@@ -240,6 +240,20 @@ footer nav {
   footer .black-section nav {
     width: calc(100% / 2);
   }
+
+  .bottom-main {
+    display: flex;
+  }
+  .bottom-main > .flex-container {
+    width: 50%;
+  }
+  .gallery .bottom-main > .flex-container > * {
+    width: 100%;
+  }
+  .bottom-main > .flex-container.second-column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 /* large view */
