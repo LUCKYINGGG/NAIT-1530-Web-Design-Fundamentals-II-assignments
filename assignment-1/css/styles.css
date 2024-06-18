@@ -161,9 +161,6 @@ footer nav {
 .footer-links li {
   text-align: left;
 }
-/* .max-contrain {
-  max-width: 80rem;
-} */
 
 /* medium view */
 @media screen and (min-width: 700px) {
@@ -263,9 +260,9 @@ footer nav {
   }
   .flex-container-col img {
     margin: unset;
-    width: unset;
+    /*width: unset;*/
     padding: 0;
-    width: 100%;
+    /*width: 100%;*/
   }
 
   .bottom-wrapper {
@@ -282,8 +279,7 @@ footer nav {
   }
   .flex-container-col div p:last-of-type {
     width: 70%;
-    margin: 0;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0;
   }
   .motto h3 {
     width: 50%;
