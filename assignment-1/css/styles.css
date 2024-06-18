@@ -313,12 +313,12 @@ footer nav {
   padding: 1rem 2rem;
 }
 
-.gallery img {
+/* .gallery img {
   display: inline-block;
   border-radius: 10px;
   margin: 0 auto;
   padding: 2rem;
-}
+} */
 .gallery figure {
   padding: 2rem 2rem 0 2rem;
 }
@@ -367,9 +367,6 @@ footer nav {
   .bottom-flex > .flex-container {
     width: 50%;
   }
-  .gallery .flex-container .gallery-building {
-    width: calc(100% / 2);
-  }
   .gallery .flex-container {
     justify-content: space-between;
   }
@@ -396,21 +393,18 @@ footer nav {
   height: 100vh;
   margin: auto;
   width: 80%;
-  padding: 10rem 0;
 }
 .third .content h2 {
-  font-size: 3.5rem;
+  font-size: 1.25rem;
   color: rgb(190, 242, 173);
   margin: 0 auto;
-  padding: 3rem 1rem;
   text-shadow: 2px 2px 3px #000000;
 }
 .third .content p {
-  font-size: 2.5rem;
+  font-size: 1rem;
   color: rgb(190, 242, 173);
   margin: 0 auto;
   text-shadow: 2px 2px 3px #000000;
-  margin: 2rem auto;
 }
 .third .content p a {
   color: rgb(190, 242, 173);
@@ -418,5 +412,7 @@ footer nav {
 }
 
 .third .container {
+  height: 0;
+  padding-bottom: 66.6%;
   background: center / cover no-repeat url(../img/art-building.webp);
 }
