@@ -381,7 +381,7 @@ footer nav {
   .gallery .bottom-flex > .flex-container > * {
     width: 100%;
   }
-  .bottom-flex > .flex-container .second-col {
+  .bottom-flex > .flex-container.second-col {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
