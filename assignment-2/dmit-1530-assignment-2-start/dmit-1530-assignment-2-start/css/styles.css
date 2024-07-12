@@ -1,5 +1,49 @@
+/* Libre Franklin
+font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+@font-face {
+    font-family: 'chronicle_black';
+    src: url('chronicle_display_black-webfont.woff2') format('woff2'),
+    url('chronicle_display_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chronicle_italic';
+    src: url('chronicle_display_light_italic-webfont.woff2') format('woff2'),
+    url('chronicle_display_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chronicle_roman';
+    src: url('chronicle_display_roman-webfont.woff2') format('woff2'),
+    url('chronicle_display_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chronicle_semibold';
+    src: url('chronicle_display_semibold-webfont.woff2') format('woff2'),
+    url('chronicle_display_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 :root {
-    --box-shadow: 0 2px 8px 4px rgba(0,0,0,0.15);
+    --box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.15);
     --off-black: #212121;
     --red: #C82F31;
 }
