@@ -658,7 +658,6 @@ footer > div:last-of-type {
 
     .cards .card-body {
         width: 30%;
-        margin: unset;
         margin: 0 auto;
     }
 
