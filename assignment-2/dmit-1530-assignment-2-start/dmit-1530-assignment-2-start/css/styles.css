@@ -253,7 +253,7 @@ nav.flex-container {
 
 .swatch {
     border: 2px solid var(--off-black);
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: var(--box-shadow);
     width: 16rem;
     position: absolute;
@@ -263,10 +263,11 @@ nav.flex-container {
     transition: all 0.5s ease;
 }
 
-/*.swatch img {*/
-/*    height: 80%;*/
-/*    width: 100%;*/
-/*}*/
+.swatch img,
+.swatch label {
+    border-radius: 5px;
+}
+
 .swatch > h4 {
     font: 1rem 'Libre Franklin', sans-serif;
     text-transform: uppercase;
@@ -352,7 +353,7 @@ nav.flex-container {
 .card-body {
     border: 2px solid var(--grey);
     box-shadow: var(--box-shadow);
-    border-radius: 3px;
+
     margin: 2rem auto;
     text-align: center;
 }
@@ -363,6 +364,7 @@ nav.flex-container {
     line-height: 2;
     padding: 0.8rem;
     font-size: 1.5rem;
+    border-radius: 5px;
 }
 
 .card-body > p:first-of-type {
@@ -389,12 +391,13 @@ nav.flex-container {
     line-height: 1.5;
     border-top: 2px solid var(--grey);
 }
+
 .pick-tag {
     position: relative;
 }
+
 .pick-tag p {
     position: absolute;
-
     top: -1rem;
     right: 0;
     background-color: var(--red);
@@ -426,10 +429,10 @@ footer {
     padding-bottom: 2rem;
 }
 
-.disclaimer p:last-of-type {
-    border-bottom: 2px solid var(--white);
+hr {
+    border: 1px solid var(--grey);
+    margin: 0 1rem 3rem 1rem;
 }
-
 
 .contact-info h4,
 .contact-info a,
@@ -438,7 +441,7 @@ footer {
 .links h4,
 .links a {
     color: var(--white);
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .contact-info a {
@@ -449,4 +452,79 @@ footer h4 {
     font-family: 'libre_franklin', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 4rem;
 }
+footer > div:last-of-type {
+    margin-left: 1rem;
+}
+/* Media Query*/
+
+/* Medium View*/
+@media screen and (min-width: 768px) {
+    .layered-swatches {
+        margin-left: 3rem;
+        height: 38rem;
+    }
+
+    .swatch:nth-child(2) {
+        left: 25%;
+        top: 15%;
+    }
+
+    .swatch:nth-child(3) {
+        left: 50%;
+        top: 30%
+    }
+
+    .layers .content {
+        margin: 1.5rem auto;
+        width: 70%;
+        line-height: 1.5;
+    }
+
+    .layers .content a {
+        margin-top: 1rem;
+    }
+
+    .tartan-finder div {
+        padding: 1rem 0.5rem 0 1rem;
+    }
+
+    .tartan-finder img,
+    .tartan-finder div {
+        order: unset;
+        width: 50%;
+    }
+
+    .tartan-finder.flex-container {
+        flex-flow: nowrap row;
+        justify-content: space-between;
+    }
+
+    .price-packs {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .disclaimer h3,
+    .disclaimer p {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .links > div {
+        width: calc(100% / 2 );
+    }
+    footer > div:last-of-type {
+        margin-left: 2.5rem;
+    }
+    hr {
+        margin: 0 2.5rem;
+    }
+}
+
+/* Larger View*/
