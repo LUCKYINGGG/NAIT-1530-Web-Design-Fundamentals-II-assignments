@@ -89,12 +89,12 @@ font-family: "Libre Franklin", sans-serif;
 }
 
 .inner-container {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
 section {
-    max-width: 960px;
+    max-width: 1080px;
     margin: auto;
     overflow: hidden;
 }
@@ -454,9 +454,11 @@ footer h4 {
     font-weight: 700;
     margin-top: 4rem;
 }
+
 footer > div:last-of-type {
     margin-left: 1rem;
 }
+
 /* Media Query*/
 
 /* Medium View*/
@@ -506,25 +508,184 @@ footer > div:last-of-type {
         width: 70%;
     }
 
-    .disclaimer h3,
-    .disclaimer p {
+    footer .disclaimer {
         width: 65%;
-        margin: 0 auto;
+        margin: 2rem auto;
+        padding-top: 3rem;
     }
+
     .links {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     .links > div {
-        width: calc(100% / 2 );
+        width: calc(100% / 2);
     }
+
     footer > div:last-of-type {
         margin-left: 2.5rem;
     }
+
     hr {
         margin: 0 2.5rem;
     }
 }
 
 /* Larger View*/
+@media screen and (min-width: 1080px) {
+    nav {
+        position: unset;
+        white-space: nowrap;
+    }
+
+    .divider {
+        border-top: unset;
+        border-bottom: unset;
+        margin: unset;
+    }
+
+    .logo {
+        white-space: nowrap;
+        text-align: center;
+        padding: unset;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .wide-flex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav,
+    svg.arrow {
+        visibility: visible;
+    }
+
+    .main-menu > .flex-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav.flex-container {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .sub-menu {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .divider ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        flex: 1 0 auto;
+
+    }
+
+    .divider ul li {
+        text-align: center;
+    }
+
+    .divider ul li:first-of-type {
+        position: relative;
+    }
+
+    .icon div {
+        margin: 1.5rem;
+    }
+
+    .main-menu {
+        flex: 1 0 auto;
+    }
+
+    section {
+        max-width: unset;
+    }
+
+    .hero-banner {
+        background: top / cover no-repeat url("../img/leddies-desktop.webp");
+        height: 50vh;
+    }
+
+    .black-veil {
+        background-color: unset;
+        width: 60%;
+        padding-left: 3rem;
+    }
+
+    .black-veil a {
+        background-color: var(--off-black);
+        color: var(--white);
+    }
+
+    .layers {
+        flex-direction: row;
+        margin: unset;
+    }
+
+    .layers .layered-swatches,
+    .layers .content {
+        width: calc(100% / 2 - 10rem);
+    }
+
+    .layers .content {
+        margin: 8rem auto;
+    }
+
+    .price-packs {
+        width: 90%;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .price-packs .content {
+        width: 70%;
+        margin: 5rem auto;
+    }
+
+    .cards {
+        display: flex;
+        column-gap: 1rem;
+        margin: 2rem auto;
+    }
+
+    .cards .card-body {
+        width: 30%;
+        margin: unset;
+        margin: 0 auto;
+    }
+
+    .cards .card-body:first-of-type a {
+        margin-top: 12rem;
+    }
+
+    .card-body:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    footer .disclaimer {
+        width: 50%;
+    }
+
+    footer > div:nth-of-type(2) {
+        display: flex;
+        column-gap: 10rem;
+    }
+
+    .links {
+        column-gap: 3rem;
+        flex-wrap: nowrap;
+    }
+
+    .links div {
+        width: 25%;
+    }
+}
