@@ -408,6 +408,7 @@ nav.flex-container {
 footer {
     background-color: #111111;
     color: var(--white);
+    padding-bottom: 4rem;
 }
 
 .disclaimer {
