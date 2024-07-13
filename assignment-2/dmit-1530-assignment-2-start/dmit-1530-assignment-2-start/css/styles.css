@@ -495,9 +495,11 @@ footer > div:last-of-type {
     .tartan-finder img,
     .tartan-finder div {
         order: unset;
-        width: 50%;
     }
-
+    .tartan-finder > img {
+        width: 40%;
+        height: 30em;
+    }
     .tartan-finder.flex-container {
         flex-flow: nowrap row;
         justify-content: space-between;
@@ -638,7 +640,10 @@ footer > div:last-of-type {
     .layers .content {
         margin: 8rem auto;
     }
-
+    .tartan-finder img,
+    .tartan-finder div {
+        width: 50%;
+    }
     .price-packs {
         width: 90%;
         margin-bottom: 3rem;
