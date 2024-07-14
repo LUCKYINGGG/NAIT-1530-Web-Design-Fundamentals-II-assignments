@@ -221,6 +221,7 @@ nav.flex-container {
 .black-veil h3 {
     color: var(--white);
     font-size: 2.25rem;
+    font-weight: 600;
     text-align: left;
     padding: 1rem 2rem 1rem 1rem;
     line-height: 1.25;
@@ -463,9 +464,21 @@ footer > div:last-of-type {
 
 /* Medium View*/
 @media screen and (min-width: 768px) {
+    h1 {
+        padding-left: 2rem;
+    }
+
+    .toggle {
+        padding-right: 2rem;
+    }
+
     .layered-swatches {
         margin-left: 3rem;
         height: 38rem;
+    }
+
+    .black-veil {
+        padding: 2rem 8rem;
     }
 
     .swatch:nth-child(2) {
@@ -496,10 +509,12 @@ footer > div:last-of-type {
     .tartan-finder div {
         order: unset;
     }
+
     .tartan-finder > img {
         width: 40%;
         height: 30em;
     }
+
     .tartan-finder.flex-container {
         flex-flow: nowrap row;
         justify-content: space-between;
@@ -581,6 +596,25 @@ footer > div:last-of-type {
     .sub-menu {
         visibility: hidden;
         position: absolute;
+        left: 0;
+        top: -0.8rem;
+        background-color: var(--white);
+        flex-direction: column;
+        /*padding-left: 0.5rem;*/
+        white-space: nowrap;
+        display: block;
+    }
+
+    .divider .sub-menu > li {
+        text-align: left;
+        padding-left: unset;
+        margin: 1rem;
+    }
+
+    .divider ul > li:first-of-type:hover .sub-menu {
+        visibility: visible;
+        position: absolute;
+        /*border: 2px solid black;*/
     }
 
     .divider ul {
@@ -623,7 +657,7 @@ footer > div:last-of-type {
     }
 
     .black-veil a {
-        background-color: var(--off-black);
+        background-color: #111111;
         color: var(--white);
     }
 
@@ -640,10 +674,12 @@ footer > div:last-of-type {
     .layers .content {
         margin: 8rem auto;
     }
+
     .tartan-finder img,
     .tartan-finder div {
         width: 50%;
     }
+
     .price-packs {
         width: 90%;
         margin-bottom: 3rem;
