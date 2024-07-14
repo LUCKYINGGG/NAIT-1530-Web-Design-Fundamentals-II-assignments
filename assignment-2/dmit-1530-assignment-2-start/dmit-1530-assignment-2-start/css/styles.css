@@ -494,6 +494,7 @@ footer > div:last-of-type {
     .layers .content {
         margin: 1.5rem auto;
         width: 70%;
+        max-width: 30rem;
         line-height: 1.5;
     }
 
@@ -523,6 +524,7 @@ footer > div:last-of-type {
     .price-packs {
         margin: 0 auto;
         width: 70%;
+        max-width: 34rem;
     }
 
     footer .disclaimer {
@@ -682,6 +684,7 @@ footer > div:last-of-type {
 
     .price-packs {
         width: 90%;
+        max-width: 80rem;
         margin-bottom: 3rem;
         padding-bottom: 2rem;
     }
@@ -713,6 +716,7 @@ footer > div:last-of-type {
 
     footer .disclaimer {
         width: 50%;
+        max-width: 33rem;
     }
 
     footer > div:nth-of-type(2) {
