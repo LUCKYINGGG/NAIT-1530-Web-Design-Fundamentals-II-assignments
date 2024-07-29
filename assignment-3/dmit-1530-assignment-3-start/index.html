@@ -1,26 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Totally Semantic Title</title>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Assignment Three | Home Page</title>
 
-		<!-- Meta Information -->
-		<meta name="author" content=" ">
-		<meta name="description" content=" ">
+    <!-- Meta Information -->
+    <meta content="Ying Tao " name="author">
+    <meta content="A3 " name="description">
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;700&display=swap"
+            rel="stylesheet">
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
-		<div class="container">
-			<h1>Hello, world!</h1>
-		</div>
-	</body>
+    <!-- Stylesheets -->
+    <link href="css/modern-reset.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- 		JavaScript -->
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<header>
+    <div class="inner-container">
+        <div class="top-header">
+            <ul>
+                <li>new ocean</li>
+                <li>orange state</li>
+                <li>player</li>
+            </ul>
+        </div>
+        <div class="bottom-header">
+            <div class="logo">
+                <h1>van</h1>
+                <svg fill="none" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_33_52)">
+                        <path d="M-2 18H82V36H-2V18ZM-2 42H82V60H-2V42ZM-2 66H82V84H-2V66Z" fill="black"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_33_52">
+                            <rect fill="white" height="96" width="96"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">SHAPLEY</a></li>
+                    <li><a href="#">ANGULAR</a></li>
+                    <li><a href="#">TODDLER</a></li>
+                    <li><a href="#">MATERNITY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="popup inner-container">
+        <div class="popup-content">
+            <button id="close">Close</button>
+            <h2>30% OFF IN-STORE AND ONLINE—YOU'VE EARNED IT&#9913;</h2>
+            <p>You'll officially be in the loop for NEW arrivals, BIG deals, EXCLUSIVE sales AND MORE.</p>
+            <form action="" method="POST">
+                <fieldset>
+                    <div>
+                        <input id="email" name="email" placeholder="Enter Your Email Address Here" required
+                                type="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="name" name="name" placeholder="Enter Your Name Here" required type="text">
+                        <label for="name">Name</label>
+                    </div>
+                    <div>
+                        <input id="city" name="city" placeholder="Enter Your Town/City Here" type="text">
+                        <label for="city">City</label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="GET 30% OFF">
+            </form>
+            <p> Yes! I would like to receive style news and exclusive offers from VAN Inc.
+                and related companies and brands including VAN (Canada) Inc. and New
+                Ocean (Canada) Inc. and Orange State. You can withdraw consent at
+                any time.</p>
+            <h3>&#9913;OFFER VALID FOR NEW SUBSCRIBERS ONLY</h3>
+            <div class="popup-policy">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>See Offer Details</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup-img">
+            <img alt="Woman in white sweater" src="img/woman-with-sweater.webp">
+            <img alt="Woman wear sunglasses" src="img/woman-with-sunglasses.webp">
+            <img alt="Woman with red boa" src="img/women-with-boa.webp">
+        </div>
+    </div>
+
+    <section class="hero-banner">
+        <div class="inner-container banner-content">
+            <h2>SALE</h2>
+            <p>Extra 50% Off Markdowns </p>
+        </div>
+    </section>
+
+    <section class="slides">
+        <div class="inner-container">
+            <h3>More New Arrivals You’ll Love</h3>
+            <div class="scroll-wrapper">
+                <!--          card 1 -->
+                <div class="card">
+                    <img alt="Children long sleeve shirt with deer print" src="img/horizontal-scroll/deer.webp">
+                    <p>Cute Deer Print Cotton Long Sleeve Shirt </p>
+                </div>
+                <!--          card 2 -->
+                <div class="card">
+                    <img alt="Footer one piece" src="img/horizontal-scroll/footed-one-piece.webp">
+                    <p>Favorites Organic Cotton Footed One-Piece</p>
+                </div>
+                <!--          card 3 -->
+                <div class="card">
+                    <img alt="Holiday set" src="img/horizontal-scroll/holiday%20set.webp">
+                    <p>Organic Cotton Holiday PJ Set</p>
+                </div>
+                <!--          card 4 -->
+                <div class="card">
+                    <img alt="Puffy t-shirt" src="img/horizontal-scroll/puppies.webp">
+                    <p>Organic Cotton Mix and Match Puff Sleeve t-shirt</p>
+                </div>
+                <!--          card 5 -->
+                <div class="card">
+                    <img alt="Rib flare leggings" src="img/horizontal-scroll/rib-flare.webp">
+                    <p>Toddler Mix and Match Rib Flare Leggings</p>
+                </div>
+                <!--          card 6 -->
+                <div class="card">
+                    <img alt="Stripe PJ set" src="img/horizontal-scroll/stripe-pj.webp">
+                    <p>Organic Cotton Stripe PJ Set</p>
+                </div>
+                <!--             repeat 1-6 cards -->
+                <!--          card 1 -->
+                <div class="card">
+                    <img alt="Children long sleeve shirt with deer print" src="img/horizontal-scroll/deer.webp">
+                    <p>Cute Deer Print Cotton Long Sleeve Shirt </p>
+                </div>
+                <!--          card 2 -->
+                <div class="card">
+                    <img alt="Footer one piece" src="img/horizontal-scroll/footed-one-piece.webp">
+                    <p>Favorites Organic Cotton Footed One-Piece</p>
+                </div>
+                <!--          card 3 -->
+                <div class="card">
+                    <img alt="Holiday set" src="img/horizontal-scroll/holiday%20set.webp">
+                    <p>Organic Cotton Holiday PJ Set</p>
+                </div>
+                <!--          card 4 -->
+                <div class="card">
+                    <img alt="Puffy t-shirt" src="img/horizontal-scroll/puppies.webp">
+                    <p>Organic Cotton Mix and Match Puff Sleeve t-shirt</p>
+                </div>
+                <!--          card 5 -->
+                <div class="card">
+                    <img alt="Rib flare leggings" src="img/horizontal-scroll/rib-flare.webp">
+                    <p>Toddler Mix and Match Rib Flare Leggings</p>
+                </div>
+                <!--          card 6 -->
+                <div class="card">
+                    <img alt="Stripe PJ set" src="img/horizontal-scroll/stripe-pj.webp">
+                    <p>Organic Cotton Stripe PJ Set</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="smile">
+        <div class="inner-container">
+            <h3>Great Fashion Starts With A Great Smile</h3>
+            <img alt="Woman happy smile" src="img/smile-half-l.webp">
+            <img alt="Man happy smile" src="img/smile-half-r.webp">
+        </div>
+    </section>
+
+    <section class="shop-division">
+        <div class="inner-container">
+            <h3>Shop by Division</h3>
+            <div class="division-container">
+                <!--                 card 1 -->
+                <div class="division-card">
+                    <img alt="A woman with blue top and black trousers standing in front of a chair"
+                            src="img/from-the-bottom.webp">
+                    <p>From the Bottom</p>
+                </div>
+                <!--                 card 2 -->
+                <div class="division-card">
+                    <img alt="A man in gray t-shirt" src="img/get-on-top.webp">
+                    <p>From the Bottom</p>
+                </div>
+                <!--                 card 3 -->
+                <div class="division-card">
+                    <img alt="A girl holding a cup of hot chocolate with marshmallow" src="img/hot-and-new.webp">
+                    <p>From the Bottom</p>
+                </div>
+            </div>
+            <div class="division-box">
+                <ul>
+                    <li><span>SAME-DAY DELIVERY BY UBER</span> Get your orders ASAP</li>
+                    <li><span>MEMBERS GET MORE</span> Join our loyalty program</li>
+                    <li><span>SAME-DAY DELIVERY BY UBER</span> Get your orders ASAP</li>
+                    <li><span>BUY NOW, PAY LATER</span> Apply for our card</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="inner-container">
+        <nav>
+            <section>
+                <h4>CUSTOMER SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Buy Online. </a></li>
+                    <li><a href="#">Pick Up In-Store.</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="#">Our Values</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Equality and Belonging</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>VAN GOOD REWARDS</h4>
+                <ul>
+                    <li><a href="#">Join VAN</a></li>
+                    <li><a href="#">Good Rewards</a></li>
+                    <li><a href="#">My Rewards & Benefits</a></li>
+                    <li><a href="#">Learn More</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <div class="bottom-footer">
+            <p>&copy;2024VAN, INC.| PRIVACY POLICY | YOUR PRIVACY CHOICES | TERMS OF USE </p>
+            <p>| SUSTAINABILITY</p>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
