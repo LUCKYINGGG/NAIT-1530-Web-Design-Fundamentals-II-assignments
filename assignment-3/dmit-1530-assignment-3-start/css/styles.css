@@ -1,14 +1,14 @@
 :root {
     /** colours need to be replaced with correct ones**/
-    --yellow:           #FED766; 
+    --yellow: #FED766;
     --lt-seafoam-green: #ecf9f6;
-    --seafoam-green:    #43C6AC;
-    --md-blue:          #191654;
-    --dk-blue:          #0C0B2A;
-    --blue-grey:        #6B717E;
+    --seafoam-green: #43C6AC;
+    --md-blue: #191654;
+    --dk-blue: #0C0B2A;
+    --blue-grey: #6B717E;
 
     /** typography need to be replaced with correct ones **/
-    --headings:'Monoton', cursive;
+    --headings: 'Monoton', cursive;
     --body: 'Rubik', sans-serif;
 }
 
@@ -19,4 +19,25 @@
     width: 0.1rem;
     height: 0.1rem;
     visibility: hidden;
+}
+
+/* universal */
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+}
+fieldset {
+    border: none;
+}
+
+/* utility */
+.inner-container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
 }
