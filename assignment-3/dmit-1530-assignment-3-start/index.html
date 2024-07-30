@@ -12,7 +12,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&display=swap"
             rel="stylesheet">
 
     <!-- Stylesheets -->
@@ -24,39 +24,40 @@
 </head>
 <body>
 <header>
-    <div class="inner-container">
-        <div class="top-header flex-container">
-            <ul>
-                <li>new ocean</li>
-                <li>orange state</li>
-                <li>player</li>
+    <div class="top-header">
+        <div class="inner-container">
+            <ul class="flex-container">
+                <li><a href="#">new ocean</a></li>
+                <li><a href="#">orange state</a></li>
+                <li><a href="#">player</a></li>
             </ul>
         </div>
-        <div class="bottom-header">
-            <div class="logo flex-container">
-                <h1>van</h1>
-                <svg fill="none" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_33_52)">
-                        <path d="M-2 18H82V36H-2V18ZM-2 42H82V60H-2V42ZM-2 66H82V84H-2V66Z" fill="black"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_33_52">
-                            <rect fill="white" height="96" width="96"/>
-                        </clipPath>
-                    </defs>
-                </svg>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">NEW</a></li>
-                    <li><a href="#">SHAPLEY</a></li>
-                    <li><a href="#">ANGULAR</a></li>
-                    <li><a href="#">TODDLER</a></li>
-                    <li><a href="#">MATERNITY</a></li>
-                </ul>
-            </nav>
-        </div>
     </div>
+    <div class="bottom-header inner-container">
+        <div class="logo flex-container">
+            <h1>van</h1>
+            <svg fill="none" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_33_52)">
+                    <path d="M-2 18H82V36H-2V18ZM-2 42H82V60H-2V42ZM-2 66H82V84H-2V66Z" fill="black"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_33_52">
+                        <rect fill="white" height="96" width="96"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        <nav>
+            <ul class="wide-flex hidden">
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">SHAPLEY</a></li>
+                <li><a href="#">ANGULAR</a></li>
+                <li><a href="#">TODDLER</a></li>
+                <li><a href="#">MATERNITY</a></li>
+            </ul>
+        </nav>
+    </div>
+
 </header>
 
 <main>
@@ -73,7 +74,7 @@
                         <label class="sr-only" for="email">Email</label>
                     </div>
                     <div>
-                        <input id="name" name="name" placeholder="Enter Your Name Here" required type="text">
+                        <input id="name" name="name" placeholder="Enter Your Name Here"  type="text">
                         <label class="sr-only" for="name">Name</label>
                     </div>
                     <div>
@@ -223,7 +224,7 @@
 
 <footer>
     <div class="inner-container">
-        <nav class="flex-container">
+        <nav class="wide-flex">
             <section>
                 <h4>CUSTOMER SUPPORT</h4>
                 <ul>
