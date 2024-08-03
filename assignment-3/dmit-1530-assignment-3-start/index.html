@@ -33,75 +33,81 @@
             </ul>
         </div>
     </div>
-    <div class="bottom-header inner-container">
-        <div class="logo flex-container">
-            <h1>van</h1>
-            <svg fill="none" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_33_52)">
-                    <path d="M-2 18H82V36H-2V18ZM-2 42H82V60H-2V42ZM-2 66H82V84H-2V66Z" fill="black"/>
-                </g>
-                <defs>
-                    <clipPath id="clip0_33_52">
-                        <rect fill="white" height="96" width="96"/>
-                    </clipPath>
-                </defs>
-            </svg>
+    <div class="bottom-header">
+        <div class="inner-container wide-flex">
+            <div class="logo flex-container">
+                <h1>van</h1>
+                <svg fill="none" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_33_52)">
+                        <path d="M-2 18H82V36H-2V18ZM-2 42H82V60H-2V42ZM-2 66H82V84H-2V66Z" fill="black"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_33_52">
+                            <rect fill="white" height="96" width="96"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <nav>
+                <ul class="wide-flex hidden">
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">SHAPLEY</a></li>
+                    <li><a href="#">ANGULAR</a></li>
+                    <li><a href="#">TODDLER</a></li>
+                    <li><a href="#">MATERNITY</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="wide-flex hidden">
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">SHAPLEY</a></li>
-                <li><a href="#">ANGULAR</a></li>
-                <li><a href="#">TODDLER</a></li>
-                <li><a href="#">MATERNITY</a></li>
-            </ul>
-        </nav>
     </div>
 
 </header>
 
 <main>
-    <div class="popup inner-container wide-flex">
-        <div class="popup-content">
+    <div class="popup">
+        <div class="inner-container">
             <button id="close">Close</button>
-            <h2>30% OFF IN-STORE AND ONLINE—YOU'VE EARNED IT&#9913;</h2>
-            <p>You'll officially be in the loop for NEW arrivals, BIG deals, EXCLUSIVE sales AND MORE.</p>
-            <form action="" method="POST">
-                <fieldset>
-                    <div>
-                        <input id="email" name="email" placeholder="Enter Your Email Address Here"
-                                type="email">
-                        <label class="validation">Please enter a valid email address</label>
-                        <label class="sr-only" for="email">Email</label>
+            <div class="wide-flex">
+                <div class="popup-content">
+                    <h2>30% OFF IN-STORE AND ONLINE—YOU'VE EARNED IT&#9913;</h2>
+                    <p>You'll officially be in the loop for NEW arrivals, BIG deals, EXCLUSIVE sales AND MORE.</p>
+                    <form action="" method="POST">
+                        <fieldset>
+                            <div>
+                                <input id="email" name="email" placeholder="Enter Your Email Address Here"
+                                        type="email">
+                                <label class="validation">Please enter a valid email address</label>
+                                <label class="sr-only" for="email">Email</label>
 
+                            </div>
+                            <div>
+                                <input id="name" name="name" placeholder="Enter Your Name Here" type="text">
+                                <label class="sr-only" for="name">Name</label>
+                            </div>
+                            <div>
+                                <input id="city" name="city" placeholder="Enter Your Town/City Here" type="text">
+                                <label class="sr-only" for="city">City</label>
+                            </div>
+                        </fieldset>
+                        <input type="submit" value="GET 30% OFF">
+                    </form>
+                    <p> Yes! I would like to receive style news and exclusive offers from VAN Inc.
+                        and related companies and brands including VAN (Canada) Inc. and New
+                        Ocean (Canada) Inc. and Orange State. You can withdraw consent at
+                        any time.</p>
+                    <h3>&#9913;OFFER VALID FOR NEW SUBSCRIBERS ONLY</h3>
+                    <div class="popup-policy">
+                        <ul>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="#">See Offer Details</a></li>
+                        </ul>
                     </div>
-                    <div>
-                        <input id="name" name="name" placeholder="Enter Your Name Here" type="text">
-                        <label class="sr-only" for="name">Name</label>
-                    </div>
-                    <div>
-                        <input id="city" name="city" placeholder="Enter Your Town/City Here" type="text">
-                        <label class="sr-only" for="city">City</label>
-                    </div>
-                </fieldset>
-                <input type="submit" value="GET 30% OFF">
-            </form>
-            <p> Yes! I would like to receive style news and exclusive offers from VAN Inc.
-                and related companies and brands including VAN (Canada) Inc. and New
-                Ocean (Canada) Inc. and Orange State. You can withdraw consent at
-                any time.</p>
-            <h3>&#9913;OFFER VALID FOR NEW SUBSCRIBERS ONLY</h3>
-            <div class="popup-policy">
-                <ul>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="#">See Offer Details</a></li>
-                </ul>
+                </div>
+                <div class="popup-img hidden">
+                    <img alt="Woman in white sweater" src="img/woman-with-sweater.webp">
+                    <img alt="Woman wear sunglasses" src="img/woman-with-sunglasses.webp">
+                    <img alt="Woman with red boa" src="img/women-with-boa.webp">
+                </div>
             </div>
-        </div>
-        <div class="popup-img hidden">
-            <img alt="Woman in white sweater" src="img/woman-with-sweater.webp">
-            <img alt="Woman wear sunglasses" src="img/woman-with-sunglasses.webp">
-            <img alt="Woman with red boa" src="img/women-with-boa.webp">
         </div>
     </div>
 
@@ -203,21 +209,21 @@
                 <div class="division-card">
                     <img alt="A woman with blue top and black trousers standing in front of a chair"
                             src="img/from-the-bottom.webp">
-                    <h3>From the Bottom</h3>
+                    <h4>From the Bottom</h4>
                 </div>
                 <!--                 card 2 -->
                 <div class="division-card">
                     <img alt="A man in gray t-shirt" src="img/get-on-top.webp">
-                    <h3>Get on Top</h3>
+                    <h4>Get on Top</h4>
                 </div>
                 <!--                 card 3 -->
                 <div class="division-card">
                     <img alt="A girl holding a cup of hot chocolate with marshmallow" src="img/hot-and-new.webp">
-                    <h3>Hot & New</h3>
+                    <h4>Hot & New</h4>
                 </div>
             </div>
-            <div class="division-box wide-flex">
-                <ul>
+            <div class="division-box ">
+                <ul class="wide-flex">
                     <li><span>SAME-DAY DELIVERY BY UBER</span> Get your orders ASAP</li>
                     <li><span>MEMBERS GET MORE</span> Join our loyalty program</li>
                     <li><span>SAME-DAY DELIVERY BY UBER</span> Get your orders ASAP</li>
