@@ -481,6 +481,22 @@ footer ul li a {
         font-size: 2rem;
     }
 
+    .hero-banner {
+        margin-bottom: 3rem;
+    }
+
+    .gray-veil {
+        background: unset;
+        top: 60%;
+        backdrop-filter: brightness(0.5);
+    }
+
+    .hero-banner .inner-container.wide-flex {
+        flex-flow: row nowrap;
+        align-items: baseline;
+        line-height: 1;
+    }
+
     .smile .inner-container {
         padding: unset;
         margin: unset;
