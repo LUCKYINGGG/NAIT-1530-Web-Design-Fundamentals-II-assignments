@@ -122,7 +122,7 @@ header {
 .popup {
     background-color: var(--white);
     position: absolute;
-    min-width: 28rem;
+    min-width: 30rem;
     padding: 2rem;
     transform: translate(-50%, 0);
     left: 50%;
@@ -510,7 +510,7 @@ footer ul li a {
     }
 
     .shop-division h4 {
-        width: 40%;
+        width: 50%;
         min-height: 8rem;
     }
 
@@ -525,6 +525,8 @@ footer ul li a {
 
     .shop-division .division-box ul {
         padding: unset;
+        display: flex;
+        align-items: stretch;
     }
 
     .shop-division .division-box ul li {
