@@ -421,6 +421,8 @@ footer ul li a {
     display: inline-block;
     margin: 1rem;
     position: fixed;
+    width: fit-content;
+    white-space: nowrap;
 }
 
 .privacy-bg .inner-container {
@@ -539,6 +541,20 @@ footer ul li a {
 
     footer nav section:last-of-type li {
         text-align: right;
+    }
+    .privacy-bg .inner-container {
+        width: unset;
+        padding: 2rem;
+    }
+    .privacy-bg .inner-container p {
+        width: 38%;
+        padding-top: 2rem;
+    }
+    .privacy-bg .inner-container a {
+        z-index: 100;
+        order: 100;
+        right: 2%;
+        top: 90%;
     }
 
 }
