@@ -115,7 +115,7 @@ ul li {
 header {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 90;
 }
 
 /* popup window*/
@@ -124,9 +124,9 @@ header {
     position: absolute;
     min-width: 28rem;
     padding: 2rem;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     left: 50%;
-    top: 50%;
+    top: 200px;
     z-index: 100;
     margin-top: 3rem;
     /*display: none;*/
@@ -305,10 +305,11 @@ header {
 }
 
 .smile .wide-flex {
-    height: 50vh;
+    /*height: 50vh;*/
 }
 
 .smile img {
+    aspect-ratio: 3/2;
     width: 100%;
     height: 50%;
     object-fit: cover;
@@ -343,6 +344,10 @@ header {
     color: var(--white);
     font-size: 1rem;
     font-weight: 900;
+}
+
+.division-box ul {
+    padding: unset;
 }
 
 .division-box span {
@@ -493,6 +498,7 @@ footer ul li a {
     .smile .wide-flex img {
         width: 50%;
         height: unset;
+        aspect-ratio: unset;
     }
 
     .shop-division .division-card {
@@ -542,14 +548,17 @@ footer ul li a {
     footer nav section:last-of-type li {
         text-align: right;
     }
+
     .privacy-bg .inner-container {
         width: unset;
         padding: 2rem;
     }
+
     .privacy-bg .inner-container p {
         width: 38%;
         padding-top: 2rem;
     }
+
     .privacy-bg .inner-container a {
         z-index: 100;
         order: 100;
