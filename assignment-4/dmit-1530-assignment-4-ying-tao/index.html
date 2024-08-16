@@ -58,7 +58,7 @@
     <section class="my-5">
         <div class="container ">
 
-            <div class="row d-md-flex flex-md-row">
+            <div class="row d-md-flex flex-md-row justify-content-md-center align-items-md-center">
                 <div class="mb-3 col-md-5">
                     <img alt="Woman with sheep in the sunlight" class="rounded img-fluid"
                          src="img/hero.webp">
@@ -225,7 +225,7 @@
                                 best
                                 crops for your region, we'll cover how to make the most of this valuable
                                 resource. </p>
-                            <a class="btn btn-outline-success" href="#">Order Your Copy</a>
+                            <a class="btn btn-outline-success w-100" href="#">Order Your Copy</a>
                         </div>
                     </div>
                 </div>
@@ -233,10 +233,11 @@
 
         </div>
     </section>
-<!-- crop corner -->
+    <!-- crop corner -->
     <section class="my-5">
         <div class="container">
-            <h2 class="display-5">Little Crops on the Prairie: <span class="text-black-50">Tips and Tricks for Alberta</span></h2>
+            <h2 class="display-5">Little Crops on the Prairie: <span
+                    class="text-black-50">Tips and Tricks for Alberta</span></h2>
             <div class="row row-cols-1 row-cols-md-3 text-center">
 
                 <div class="col">
@@ -277,65 +278,99 @@
 
         </div>
     </section>
-<!-- events -->
-    <section>
+    <!-- events -->
+    <section class="my-5">
         <div class="container">
-            <h2>Upcoming events</h2>
-            <img alt="Two big cans of preserve on table" class="img-fluid" src="img/cans.webp">
-            <div>
-                <h3>Canning Workshop</h3>
-                <p>Learn the art of canning from our expert homesteaders and discover how to preserve the harvest and
-                    savor the flavors of your homestead all year round</p>
+            <h2 class="my-5">Upcoming Events</h2>
+            <div class="text-center">
+                <div class="card text-white d-xl-none d-xxl-block d-xxl-none rounded-0">
+                    <img alt="Two big cans of preserve on table" class="img-fluid card-img rounded-0" src="img/cans.webp">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-sm-center align-items-md-end w-75 mx-auto">
+                        <div class="py-4">
+                            <h3 class="card-title">Canning Workshop</h3>
+                            <p class="card-text">Learn the art of canning from our expert homesteaders and discover
+                                how to preserve the harvest
+                                and
+                                savor the flavors of your homestead all year round</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-white d-none d-xl-block rounded-0">
+                    <img alt="Grand Prairie with sheep in sunrise" class="img-fluid card-img rounded-0"
+                         src="img/sunrise.webp">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-sm-center align-items-md-end w-75 mx-auto">
+                        <div class="pb-5">
+                            <h3 class="card-title">Homestead Tour</h3>
+                            <p class="card-text fs-3">Take a tour of one of our members' homesteads and learn about
+                                their
+                                unique
+                                practices and techniques for sustainable living.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </section>
-
+<!-- contact form -->
     <section class="my-5">
-        <div class="container">
-            <form action="#" method="POST">
-                <div>
-                    <label for="first-name">First Name</label>
-                    <input id="first-name" name="first-name" type="text">
+        <div class="bg-success text-white">
+            <div class="container">
+                <h2 class="my-5 pt-5">Engage With Us</h2>
+                <div >
+                    <form action="#" method="POST" class="pb-5 row gy-3">
+
+                            <div class=" col-12 col-md-4 offset-md-2">
+                                <label for="first-name" class="form-label">First Name</label>
+                                <input id="first-name" name="first-name" type="text" class="form-control">
+                            </div>
+                            <div class=" col-12 col-md-4">
+                                <label for="last-name" class="form-label">Last Name</label>
+                                <input id="last-name" name="last-name" type="text" class="form-control">
+                            </div>
+
+                        <div class=" col-12 col-md-8 offset-md-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="email" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-8 offset-md-2">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control"></textarea>
+                        </div>
+                        <div class="mt-2 col-12 col-md-8 offset-md-2">
+                            <div class="form-check">
+                                <input id="accept" required type="checkbox" class="form-check-input">
+                                <label for="accept" class="form-check-label">I agree to The Homestead Hub's
+                                    data collection and privacy policy.</label>
+                            </div>
+                        </div>
+                        <div class="col-4 offset-4 col-md-2 offset-md-5">
+                            <button type="submit" class="btn btn-outline-light px-5">Send</button>
+                        </div>
+                    </form>
                 </div>
-                <div>
-                    <label for="last-name">Last Name</label>
-                    <input id="last-name" name="last-name" type="text">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-                </div>
-                <div>
-                    <input id="accept" required type="checkbox">
-                    <label for="accept">I agree to The Homestead Hub's data collection and privacy policy.</label>
-                </div>
-                <div>
-                    <input type="submit" value="Send">
-                </div>
-            </form>
+            </div>
 
         </div>
     </section>
 
 </main>
 
-<footer>
+<footer class="my-5">
     <div class="container">
-        <p>&copy; 2023 Cultivate, Inc</p>
-        <nav>
-            <ul>
-                <li><a href="#">Featured</a></li>
-                <li><a href="#">Latest</a></li>
-                <li><a href="#">Crop Corner</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Engage</a></li>
-            </ul>
-        </nav>
+        <div class="row">
+            <p class="col-6 offset-3 col-lg-5 offset-lg-0">&copy; 2023 Cultivate, Inc</p>
+
+                <ul class="col-12 col-lg-6 list-unstyled d-inline-flex justify-content-start justify-content-lg-end">
+                    <li><a href="#" class="text-decoration-none text-black me-3">Featured</a></li>
+                    <li><a href="#" class="text-decoration-none text-black me-3">Latest</a></li>
+                    <li><a href="#" class="text-decoration-none text-black me-3">Crop Corner</a></li>
+                    <li><a href="#" class="text-decoration-none text-black me-3">Events</a></li>
+                    <li><a href="#" class="text-decoration-none text-black">Engage</a></li>
+                </ul>
+        </div>
     </div>
 </footer>
 
